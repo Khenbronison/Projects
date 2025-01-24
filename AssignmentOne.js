@@ -22,7 +22,7 @@ console.log(factorial(5))
 //   console.log(this.color)
 
 //   Question 4
-function user (name,age, location){
+function users (name,age, location){
     this.name = name
     this.age = age
     this.location = location
@@ -31,5 +31,7 @@ function user (name,age, location){
         return `Hello, I am ${this.name}. I am ${this.age} and i reside in ${this.location} `
     }
 }
-const user1 = new user ("Ken", 18, "Accra")
+const user1 = new users ("James", 18, "Accra")
 console.log(user1.greet())
+
+// Question 5
