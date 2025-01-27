@@ -101,27 +101,54 @@
 //     console.log(number)
 // }
 
-const calculateArea = (width = 1, height = 2) => width * height
+// const calculateArea = (width = 1, height = 2) => width * height
 
-console.log(calculateArea())
+// console.log(calculateArea())
 
-const person = {name: "Ken", age: 24}
+// const person = {name: "Ken", age: 24}
 
-const {name, age} = person
+// const {name, age} = person
 
-console.log(name)
+// console.log(name)
 
-const number = [1,2,3,4,5]
+// const number = [1,2,3,4,5]
 
-const [one,two,three] = number
+// const [one,two,three] = number
 
-console.log(one)
+// console.log(one)
 
-function sumAll(...args) {
-    return args.reduce((sum, current) => sum + current, 0);
-}
+// function sumAll(...args) {
+//     return args.reduce((sum, current) => sum + current, 0);
+// }
 
-// Example usage:
-console.log(sumAll(1, 2, 3));      // Output: 6
-console.log(sumAll(10, 20, 30));   // Output: 60
-console.log(sumAll());             // Output: 0
+// // Example usage:
+// console.log(sumAll(1, 2, 3));      // Output: 6
+// console.log(sumAll(10, 20, 30));   // Output: 60
+// console.log(sumAll());             // Output: 0
+
+// function sayHiBye(firstName, lastName) {
+//     // Nested helper function
+//     function getFullName() {
+//         return firstName + " " + lastName;
+//     }
+
+//     // Returning a string instead of just printing
+//     return "Hello, " + getFullName() 
+//     return "Bye, " + getFullName()
+// }
+
+// console.log(sayHiBye("Ken", "Amoah"));
+
+let phrase = "Hello";
+
+
+function sayHi() {
+    if (true) {
+        let user = "John";
+      }
+    console.log(`${phrase}, ${user}`);
+   
+  }
+sayHi()
+
+
