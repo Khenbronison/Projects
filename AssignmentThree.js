@@ -190,7 +190,7 @@ declareVariable();
 // BONUS
  function isPrime(n){
     if(n % 2 === 0){
-        console.log("Not a prime number")
+        console.log("This is not a prime number")
     }
     else{
         console.log("Prime number")
