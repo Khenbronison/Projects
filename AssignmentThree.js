@@ -185,7 +185,7 @@ function declareVariable(){
 }
 
 declareVariable();
-// It doesn't work because saySomething is been accessed outside it's scope that is the loop
+// It won't work because saySomething is been accessed outside it's scope that is the loop
 
 // BONUS
  function isPrime(n){
