@@ -196,4 +196,4 @@ declareVariable();
         console.log("Prime number")
     }
  }
- isPrime(15)
+ isPrime(9)
