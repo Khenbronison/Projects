@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(0, 225, 255);
+    font-family: cursive;
+    flex-direction: column;
+    }
+
+.container{
+    display: block;
+}
+
+.main{
+    display: block;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#btnChanger{
+    display: block;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+input, #submitButton{
+    display: block;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#submitNameButton{
+    display: block;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.counter {
+    margin-top: 5px;
+    font-size: 14px;
+}

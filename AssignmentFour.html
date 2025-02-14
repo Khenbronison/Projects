@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="AssignmentFour.css">
+    <title>Counter App</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Question 1 -->
+        <div class="main">
+            <div><span id="countNumber">Count: 0</span></div>
+
+            <div class="buttons">
+
+            <button id="increaseBtn" onclick="increaseBtnValue()">+</button>
+            <button id="decreaseBtn" onclick="decreaseBtnValue()">-</button>
+            <button id="resetBtn" onclick="resetBtnValue()">Reset</button>
+            <button id="doubleBtn" onclick="doubleBtnValue()">Double</button>
+
+            </div>
+        </div>
+        <!-- Question 2 -->
+        <div>
+            <button id="btnChanger" onclick="changeColor()">Change my color</button>
+        </div>
+
+        <!-- Question 3 -->
+         <div class="simpleForm">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <label for="age">Age</label>
+            <input type="text" id="age" placeholder="Enter your age">
+
+            <label for="email">E-mail</label>
+            <input type="text" id="email" placeholder="Enter your email">
+
+            <button type="submit" id="submitButton" onclick="submitButtonValue()">Submit</button>
+         </div>
+
+         <!-- Question 4 -->
+         <div class="simpleHeader">
+            <h2 id="sayHello">Hello Kojo</h2>
+            <input type="text" id ="HelloInput" placeholder="Enter your name">
+            <button type="submit" id="submitNameButton" onclick="changeHeaderName()">Say Hello</button>
+         </div>
+
+    
+    </div>
+         
+     <!-- Question 5-->
+     <div class="ParagraphHideShow">
+        <p id="hideShowParagragh">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et repellat numquam aliquam debitis molestiae mollitia saepe, qui aspernatur quidem repudiandae minima facilis eum a temporibus, dolore culpa velit? Placeat, suscipit.</p>
+        <button type="submit" id="toggleButton" onclick="hidandShowText()">Hide Text</button>
+      </div>
+
+    <!-- QUESTION 6 -->
+     <div>
+        <h2>Live Character Counter</h2>
+        <textarea id="message" placeholder="Type your message..." oninput="countCharacters()"></textarea>
+        <p class="counter"><span id="remaining">100</span> characters remaining</p>
+     </div>
+
+     <!-- QUESTION 7 -->
+    <div>
+        <h2>Simple Calculator</h2>
+        <input type="number" id="numberInput" placeholder="Please enter a number" value="0" >
+        <div class="buttons">
+   
+        <button id="increaseBtn2" onclick="increaseBtnValue2()">+</button>
+        <button id="decreaseBtn2" onclick="decreaseBtnValue2()">-</button>
+        <button id="clearBtn" onclick="clearBtnValue()">Clear</button>
+        <button id="multiplyBtn" onclick="multiplyBtnValue()">Multiply by 2</button>
+   
+        </div>
+    </div>
+    <script src="/AssignmentFour.js"></script>
+</body>
+</html>

@@ -142,7 +142,7 @@ console.log(addNumbers(2,2))
 function convertToFahrenheit(celsius){
     console.log(`Inputed temperature: ${celsius}`)
     console.log(`Converting your temperature into fahrenheit...`)
-    return Fahrenheit = (celsius * 9/5) + 32
+    return (celsius * 9/5) + 32
 }
 console.log(convertToFahrenheit(36))
 
