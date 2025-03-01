@@ -36,16 +36,6 @@ function addTask() {
     renderTasks();
 }
 
-function updateTaskStatus() {
-    let pendingCount = tasks.filter(task => !task.completed).length;
-    
-    let completedCount = tasks.filter(task => task.completed).length;
-
-    pendingStatus.textContent = pendingCount;
-    completedStatus.textContent = completedCount;
-}
-
-
 function renderTasks() {
     taskListContainer.innerHTML = "";
 
@@ -70,6 +60,17 @@ function renderTasks() {
 
     updateTaskStatus();
 }
+
+function updateTaskStatus() {
+    let pendingCount = tasks.filter(task => !task.completed).length;
+    
+    let completedCount = tasks.filter(task => task.completed).length;
+
+    pendingStatus.textContent = pendingCount;
+    completedStatus.textContent = completedCount;
+}
+
+
 
 function toggleTask(index) {
     tasks[index].completed = !tasks[index].completed;
