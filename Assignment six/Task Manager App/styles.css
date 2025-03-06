@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(120, 179, 255);
+    background-color: #0045ac;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,8 +35,8 @@ input {
 
 button {
     padding: 12px;
-    background-color: rgb(120, 179, 255);
-    color: white;
+    background-color: #ffd200;
+    color: #000;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -45,7 +45,7 @@ button {
 }
 
 button:hover {
-    background-color: #4b6eaf;
+    background-color: #b69b25;
 }
 
 .task_list {
@@ -53,12 +53,16 @@ button:hover {
     margin: 20px;
     padding: 10px;
     border-radius: 10px;
-    background-color: whitesmoke;
+    background-color: #00b898;
 }
 
 h2 {
     padding-bottom: 5px;
     margin-bottom: 5px;
+}
+
+h1 {
+color: #fff;
 }
 
 ul {
@@ -72,6 +76,8 @@ li {
     padding: 5px;
     margin: 8px 0;
     border-radius: 5px;  
+    color: #fff;
+    font-weight: bolder;
 }
 
 li:hover {
